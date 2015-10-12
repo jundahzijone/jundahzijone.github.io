@@ -1,6 +1,6 @@
 # jundahzijone.github.io
 
-This is for my blog to establish 
+**This is for my blog to establish **
 
 I heard that  use github pages for free and you can customize for yourself 
 
