@@ -1,18 +1,10 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2015-10-13 10:55:53
+title:  "Welcome to my first blog!"
+date:   2015-10-13 17:26:53
 categories: jekyll update
 ---
 
 
-**hello**
-
-*this is my first blog*
-
-> 第一次使用github pages
-> 第一次使用jekyll
-> 每一次使用个人网站
-> hello
-
-[不知道如何使用了]
+> **I graduate from GuangZhou University** and 
+> **work in Guangzhou and I am a green hand on program althought I had coded for one year**
