@@ -8,3 +8,9 @@ categories: jekyll update
 
 > **I graduate from GuangZhou University** and 
 > **work in Guangzhou and I am a green hand on program althought I had coded for one year**
+
+- one 
+
+- two 
+
+- three 
