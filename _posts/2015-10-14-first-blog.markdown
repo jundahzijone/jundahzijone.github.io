@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: markdown使用
 description: markdown使用简介
 ---

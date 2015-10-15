@@ -5,11 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>markdown使用</title>
-  <meta name="description" content="主要进行markdown语法的使用说明">
+  <title>安装 node.js</title>
+  <meta name="description" content="今天开始折腾 Node.js. 第一步，如何安装。">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://127.0.0.1:4000/2015/10/14/first-blog.html">
+  <link rel="canonical" href="http://127.0.0.1:4000/2015/10/15/install-nodejs.html">
   <link rel="alternate" type="application/rss+xml" title="hzijone" href="http://127.0.0.1:4000/feed.xml" />
 </head>
  -->
@@ -27,13 +27,13 @@
     <meta charset="utf-8" />
     <title>
         
-            markdown使用
+            安装 node.js
                  
     </title>
     <meta name="generator" content="Jekyll" />
     <meta name="author" content="" />
-    <meta name="description" content="markdown使用简介" />
-    <meta name="keywords" content="" />
+    <meta name="description" content="安装 Node.js 的步骤。" />
+    <meta name="keywords" content="Node.js, install" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
     <!-- //页面样式 -->
     <link rel="stylesheet" href="http://127.0.0.1:4000/themes/violet/css/style.css" type="text/css" />
@@ -104,49 +104,88 @@
         <section class="main" id="violet-main">
             <article class="main-article main-article-page">
     <div class="violet-title">
-        <h3 class="violet-title-item">markdown使用</h3>
+        <h3 class="violet-title-item">安装 node.js</h3>
     </div>
     <div class="violet-post">
-        <p class="main-article-meta"><time pubdate="">2015-10-14</time></p>
+        <p class="main-article-meta"><time pubdate="">2015-10-15</time></p>
         <div class="main-article-contant">
-            <h1 id="markdown">主要进行markdown语法的使用说明</h1>
+            <p>今天开始折腾 Node.js. 第一步，如何安装。</p>
 
-<p><strong>I</strong> graduate from <em>GuangZhou University</em></p>
+<h3 id="mac-">Mac 上的安装方法</h3>
 
-<h2 id="section">个人爱好</h2>
-<ul>
-  <li>喜欢运动
+<p>如果你已经安装好了 homebrew ，直接在终端输入这样一个命令: brew install node</p>
+
+<p>如果没有，可以采用下面的方法：</p>
+
+<ol>
+  <li>安装 Xcode (开发者工具，里面有很多需要的软件包，最基础的一些环境等)</li>
+  <li>安装 git2. 安装 git (之前已经有文章介绍过)</li>
+  <li>在终端输入下面命令：</li>
+</ol>
+
+<pre name="colorcode" class="js">
+git clone git://github.com/ry/node.git
+cd node
+./configure
+make
+sudo make install
+</pre>
+
+<p>接着就可以通过后面的一个 Hello world 的例子来测试是否运行了。</p>
+
+<h3 id="ubuntu-">Ubuntu 上面的安装方法</h3>
+
+<ol>
+  <li>安装一些依赖包</li>
+</ol>
+<pre name="colorcode" class="js">
+sudo apt-get install g++ curl libssl-dev apache2-utils
+sudo apt-git install git-core
+</pre>
+
+<ol>
+  <li>在终端下运行下面命令：</li>
+</ol>
+<pre name="colorcode" class="js">
+git clone git://github.com/ry/node.git
+cd node
+./configure
+make
+sudo make install
+</pre>
+
+<p>接着就可以通过后面的一个 Hello world 的例子来测试是否运行了。</p>
+
+<h3 id="windows-">Windows 上面的安装方法</h3>
+
+<p>在 Windows 上，你得使用 cygwin 来安装 node，具体的安装方法如下：</p>
+
+<ol>
+  <li>安装 cygwin</li>
+  <li>
+    <p>点击 cygwin 里面的 setup.exe 来安装如下的包：</p>
+
     <ul>
-      <li>乒乓球</li>
-      <li>羽毛球</li>
+      <li>devel -&gt; openssl</li>
+      <li>devel -&gt; g++-gcc</li>
+      <li>devel -&gt; make</li>
+      <li>python -&gt; python</li>
+      <li>devel -&gt; git</li>
     </ul>
   </li>
-  <li>看书</li>
-  <li>写博客</li>
-  <li>聊天</li>
-</ul>
+  <li>依照 start -&gt; cygwin -&gt; cygwin bash shell 打开终端</li>
+  <li>输入下面命令：</li>
+</ol>
+<pre name="colorcode" class="js">
+git clone git://github.com/ry/node.git
+cd node
+./configure
+make
+sudo make install
+</pre>
+<p>接着就可以通过后面的一个 Hello world 的例子来测试是否运行了。</p>
 
-<p>目前我的博客位于<a href="http://www.cnblogs.com/hzijone">博客园</a></p>
-
-<p>用一段php语言表达(行的开头空4个空格，表示程序代码，例如：)</p>
-
-<p>PHP:</p>
-
-<pre><code>echo "hello,welcome to my private blog\n";
-</code></pre>
-
-<hr />
-
-<h2 id="section-1"><strong>附言</strong></h2>
-
-<blockquote>
-  <p>I am a slient,considerate boy(加两个空格,实现段内换行) <br />
-but I convince that I can get over it</p>
-</blockquote>
-
-<p><img src="http://www.turingbook.com/Content/img/Turing.Gif" alt="这是一个Logo图像" /></p>
-
-<p><a href="http://www.cnblogs.com/hzijone/">http://www.cnblogs.com/hzijone/</a></p>
+<p>PS: 其实在 windows 下，还有其他的安装方法。具体百度一下就有。</p>
 
         </div>
     </div>
@@ -154,10 +193,8 @@ but I convince that I can get over it</p>
 <nav class="pagination fn-clear" id="violet-paging">
     <div class="pagination-list">
         
-        <a class="prev" href="/jekyll/update/2015/10/13/welcome-to-jekyll.html" rel="bookmark"><i class="fa fa-chevron-circle-left"></i>Welcome to Jekyll!</a>
+        <a class="prev" href="/2015/10/14/first-blog.html" rel="bookmark"><i class="fa fa-chevron-circle-left"></i>markdown使用</a>
         
-        
-        <a class="next" href="/2015/10/15/install-nodejs.html" rel="bookmark">安装 node.js<i class="fa fa-chevron-circle-right"></i></a>
         
     </div>
 </nav>
