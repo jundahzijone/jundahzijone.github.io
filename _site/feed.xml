@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>首页</title>
+    <title>hzijone</title>
     <description></description>
-    <link>http://junda.hzijone.com/</link>
-    <atom:link href="http://junda.hzijone.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 14 Oct 2015 17:20:55 +0800</pubDate>
-    <lastBuildDate>Wed, 14 Oct 2015 17:20:55 +0800</lastBuildDate>
+    <link>http://127.0.0.1:4000/</link>
+    <atom:link href="http://127.0.0.1:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 15 Oct 2015 16:19:33 +0800</pubDate>
+    <lastBuildDate>Thu, 15 Oct 2015 16:19:33 +0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -28,20 +28,22 @@
   &lt;li&gt;聊天&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;我的博客位于&lt;a href=&quot;http://www.cnblogs.com/hzijone&quot;&gt;博客园&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;目前我的博客位于&lt;a href=&quot;http://www.cnblogs.com/hzijone&quot;&gt;博客园&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;用一段php语言表达(行的开头空4个空格，表示程序代码，例如：)&lt;/p&gt;
 
 &lt;p&gt;PHP:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;echo &quot;hello,welcome to my private blog\n&quot;; ---
+&lt;pre&gt;&lt;code&gt;echo &quot;hello,welcome to my private blog\n&quot;;
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
 
 &lt;h2 id=&quot;section-1&quot;&gt;&lt;strong&gt;附言&lt;/strong&gt;&lt;/h2&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;I am a slient boy(加两个空格,实现段内换行) &lt;br /&gt;
-but i convince that I can get over it&lt;/p&gt;
+  &lt;p&gt;I am a slient,considerate boy(加两个空格,实现段内换行) &lt;br /&gt;
+but I convince that I can get over it&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://www.turingbook.com/Content/img/Turing.Gif&quot; alt=&quot;这是一个Logo图像&quot; /&gt;&lt;/p&gt;
@@ -49,8 +51,8 @@ but i convince that I can get over it&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.cnblogs.com/hzijone/&quot;&gt;http://www.cnblogs.com/hzijone/&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 14 Oct 2015 00:00:00 +0800</pubDate>
-        <link>http://junda.hzijone.com/2015/10/14/first-blog.html</link>
-        <guid isPermaLink="true">http://junda.hzijone.com/2015/10/14/first-blog.html</guid>
+        <link>http://127.0.0.1:4000/2015/10/14/first-blog.html</link>
+        <guid isPermaLink="true">http://127.0.0.1:4000/2015/10/14/first-blog.html</guid>
         
         
       </item>
@@ -73,8 +75,8 @@ but i convince that I can get over it&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 13 Oct 2015 18:55:53 +0800</pubDate>
-        <link>http://junda.hzijone.com/jekyll/update/2015/10/13/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://junda.hzijone.com/jekyll/update/2015/10/13/welcome-to-jekyll.html</guid>
+        <link>http://127.0.0.1:4000/jekyll/update/2015/10/13/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://127.0.0.1:4000/jekyll/update/2015/10/13/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>

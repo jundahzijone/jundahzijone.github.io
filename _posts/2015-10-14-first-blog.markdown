@@ -1,6 +1,7 @@
 ---
 layout: default
 title: markdown使用
+description: markdown使用简介
 ---
 
 #主要进行markdown语法的使用说明#
@@ -16,7 +17,7 @@ title: markdown使用
 - 写博客
 - 聊天
 
-我的博客位于[博客园](http://www.cnblogs.com/hzijone)
+目前我的博客位于[博客园](http://www.cnblogs.com/hzijone)
 
 
 
@@ -26,13 +27,14 @@ title: markdown使用
 PHP:
 
     echo "hello,welcome to my private blog\n";
+
 ---
 
 
 ##**附言**     
 
-> I am a slient boy(加两个空格,实现段内换行)   
-> but i convince that I can get over it
+> I am a slient,considerate boy(加两个空格,实现段内换行)   
+> but I convince that I can get over it
 
 
 

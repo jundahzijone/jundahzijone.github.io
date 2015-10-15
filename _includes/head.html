@@ -1,4 +1,4 @@
-<head>
+<!-- <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,4 +9,37 @@
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+</head>
+ -->
+
+<head>
+    <!--
+     **
+     * Author:         掌心
+     * Contact:        zhanxin.info@gmail.com
+     * Theme Name:     Violet ( Violet 主题代表着一种颜色，一种情感，还有一种美)
+     * Create Date:    2013.10
+     * Update:         2014.09
+     **
+    -->
+    <meta charset="utf-8" />
+    <title>
+        {% if page.title %}
+            {{ page.title }}
+        {% else %}
+            {{ site.title }}
+        {% endif %}         
+    </title>
+    <meta name="generator" content="Jekyll" />
+    <meta name="author" content="{{ site.author.name }}" />
+    <meta name="description" content="{{ page.description }}" />
+    <meta name="keywords" content="{{ page.keywords | join: ',' }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <!-- //页面样式 -->
+    <link rel="stylesheet" href="{{ site.url }}{{ site.themes }}/css/style.css" type="text/css" />
+    <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="{{ site.feed }}" />
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}{{ site.themes }}/css/font-awesome.css">
+    <link href='http://fonts.googleapis.com/css?family=Spirax' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="{{ site.url }}{{ site.themes }}/images/favicon.ico" type="image/x-icon" />
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
