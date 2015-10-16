@@ -4,7 +4,8 @@ subTitle: Just another Jekyll blog.
 email: huangzhigang@junda-tech.com
 description: > # love to open source, love to share
 #baseurl: "jundahzijone.github.io" # the subpath of your site, e.g. /blog/
-url: "http://jundahzijone.github.io" # the base hostname & protocol for your site
+# url: "http://jundahzijone.github.io" # the base hostname & protocol for your site
+url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 github_username:  jundahzijone
 
