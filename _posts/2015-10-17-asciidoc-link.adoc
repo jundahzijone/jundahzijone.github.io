@@ -1,0 +1,27 @@
+http://asciidoctor.org - automatic!
+
+http://asciidoctor.org[Asciidoctor]
+
+https://github.com/asciidoctor[Asciidoctor @ *GitHub*]
+
+link:++http://example.org/?q=[a b]++[URL with special characters]
+
+link:http://example.org/?q=%5Ba%20b%5D[URL with special characters]
+
+
+
+=== Email and IRC
+devel@discuss.arquillian.org
+
+mailto:devel@discuss.arquillian.org[Discuss Arquillian]
+
+mailto:devel-join@discuss.arquillian.org[Subscribe, Subscribe me, I want to join!]
+
+irc://irc.freenode.org/#asciidoctor
+
+
+=== Internal cross references 交叉引用
+
+See <<paragraphs>> to learn how to write paragraphs.
+
+Learn how to organize the document into <<section-titles,sections>>.

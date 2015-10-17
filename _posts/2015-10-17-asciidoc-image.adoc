@@ -1,0 +1,24 @@
+image::sunset.jpg[]
+
+image::sunset.jpg[Sunset]
+
+[[img-sunset]]
+image::sunset.jpg[caption="Figure 1: ", title="A mountain sunset", alt="Sunset", width="300", height="200", link="http://www.flickr.com/photos/javh/5448336655"]
+
+image::http://asciidoctor.org/images/octocat.jpg[GitHub mascot]
+
+
+image:sunset.jpg[Sunset,150,150,role="right"] What a beautiful sunset!
+
+
+Click image:icons/play.png[Play, title="Play"] to get the party started.
+
+Click image:icons/pause.png[title="Pause"] when you need a break.
+
+
+video::video_file.mp4[]
+
+video::video_file.mp4[width=640, start=60, end=140, options=autoplay]
+
+
+video::a.avi[youkou]

@@ -1,0 +1,81 @@
+line breaks - 换行
+
+----
+I am a PHP developer,
+Work in Junda
+----
+
+
+Literal(通过空一行)
+
+A normal paragraph.
+
+ A sequence of lines that begin with at least one space is a literal paragraph.
+ Literal paragraphs are treated as preformatted text.
+ The text is shown in a fixed-width font
+ and endlines are preserved.
+
+
+Admonition(警醒)
+
+NOTE: An admonition paragraph draws the reader's attention to
+auxiliary information.
+Its purpose is determined by the label
+at the beginning of the paragraph.
+
+Here are the other built-in admonition types:
+
+TIP: Pro tip...
+
+IMPORTANT: Don't forget...
+
+WARNING: Watch out for...
+
+CAUTION: Ensure that...
+
+
+Formatted Text（文字格式）
+
+_italic phrase_
+
+__i__talic le__tt__ers
+
+*bold phrase*
+
+**b**old le**tt**ers
+
+*_bold italic phrase_*
+
+**__b__**old italic le**__tt__**ers
+
+`monospace phrase` and le``tt``ers
+
+`_monospace italic phrase_` and le``__tt__``ers
+
+`*monospace bold phrase*` and le``**tt**``ers
+
+`*_monospace bold italic phrase_*` and le``**__tt__**``ers
+
+
+
+Custom Styling(*自定义风格*)
+
+Werewolves are #allergic to cinnamon#.
+
+Do werewolves believe in [small]#small print#?
+
+[big]##O##nce upon an infinite loop.
+
+
+
+Curved Quotation Marks and Apostrophes（*引号与撇号的使用*）
+
+'`single curved quotes`'
+
+"`double curved quotes`"
+
+Olaf's desk was a mess.
+
+All of the werewolves`' desks were a mess.
+
+Olaf had been with the company since the `'60s.
