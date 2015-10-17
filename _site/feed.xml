@@ -5,8 +5,8 @@
     <description></description>
     <link>http://jundahzijone.github.io/</link>
     <atom:link href="http://jundahzijone.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 17 Oct 2015 14:27:04 +0800</pubDate>
-    <lastBuildDate>Sat, 17 Oct 2015 14:27:04 +0800</lastBuildDate>
+    <pubDate>Sat, 17 Oct 2015 14:34:32 +0800</pubDate>
+    <lastBuildDate>Sat, 17 Oct 2015 14:34:32 +0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -987,7 +987,7 @@ Your browser does not support the video tag.
       </item>
     
       <item>
-        <title>Welcome to Jekyll!</title>
+        <title>adoc评论及注释的使用</title>
         <description>&lt;div class=&quot;sect1&quot;&gt;
 &lt;h2 id=&quot;comments&quot;&gt;comments&lt;/h2&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
