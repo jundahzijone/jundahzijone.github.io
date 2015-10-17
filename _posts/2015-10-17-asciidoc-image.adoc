@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "adoc图片切换及显示"
 date:   2015-10-13 10:55:53
 categories: jekyll update
-description: jekyll 简单的博客、静态网站工具
+description: 主要进行图片、视频的显示
 ---
 
 image::sunset.jpg[]
