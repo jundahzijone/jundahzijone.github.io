@@ -5,11 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>hzijone</title>
-  <meta name="description" content="">
+  <title>adoc常见格式</title>
+  <meta name="description" content="line breaks - 换行">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://jundahzijone.github.io/">
+  <link rel="canonical" href="http://jundahzijone.github.io/jekyll/update/2015/10/13/asciidoc-useage.html">
   <link rel="alternate" type="application/rss+xml" title="hzijone" href="http://jundahzijone.github.io/feed.xml" />
 </head>
  -->
@@ -27,13 +27,13 @@
     <meta charset="utf-8" />
     <title>
         
-            hzijone
+            adoc常见格式
                  
     </title>
     <meta name="generator" content="Jekyll" />
     <meta name="author" content="" />
-    <meta name="description" content="这是 PIZn 的又一个博客，它是基于 Jekyll 搭建起来的。在这里，不仅仅是用来快速记录工作，学习，生活的一点一滴的地方，更是 PIZn 对 Jekyll 的学习和使用的一次有意义的实践。" />
-    <meta name="keywords" content="PIZn, GitHub, Jekyll, Plugins, Works, Archives, Quotes, Violet, css, html, javascript, wordpress, logo, design, geek" />
+    <meta name="description" content="adoc常见格式" />
+    <meta name="keywords" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
     <!-- //页面样式 -->
     <link rel="stylesheet" href="http://jundahzijone.github.io/themes/violet/css/style.css" type="text/css" />
@@ -55,9 +55,7 @@
                     
                     
                     
-                      
-                    
-                    <li class="nav-item nav-item-active">
+                    <li class="nav-item ">
                         <a href="/index.html">
                             首页
                         </a>
@@ -104,77 +102,186 @@
             </nav>
         </section>
         <section class="main" id="violet-main">
-            
-<article class="main-article">
+            <article class="main-article main-article-page">
+    <div class="violet-title">
+        <h3 class="violet-title-item">adoc常见格式</h3>
+    </div>
     <div class="violet-post">
-        <h3 class="main-article-title"><a href="/2015/10/15/install-nodejs.html" title="安装 node.js" rel="bookmark">安装 node.js</a></h3>
-        <p class="main-article-meta"><time pubdate="2015-10-15">2015-10-15</time></p>
+        <p class="main-article-meta"><time pubdate="">2015-10-13</time></p>
         <div class="main-article-contant">
-            <p>安装 Node.js 的步骤。</p>
-            <p class="main-article-more"><a href="/2015/10/15/install-nodejs.html" title="Read More" rel="nofollow">Read More</a></p>
+            <div class="paragraph">
+<p>line breaks - 换行</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>I am a PHP developer,
+Work in Junda</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Literal(通过空一行)</p>
+</div>
+<div class="paragraph">
+<p>A normal paragraph.</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>A sequence of lines that begin with at least one space is a literal paragraph.
+Literal paragraphs are treated as preformatted text.
+The text is shown in a fixed-width font
+and endlines are preserved.</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Admonition(警醒)</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+An admonition paragraph draws the reader&#8217;s attention to<br>
+auxiliary information.<br>
+Its purpose is determined by the label<br>
+at the beginning of the paragraph.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Here are the other built-in admonition types:</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Tip</div>
+</td>
+<td class="content">
+Pro tip&#8230;&#8203;
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Important</div>
+</td>
+<td class="content">
+Don&#8217;t forget&#8230;&#8203;
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Warning</div>
+</td>
+<td class="content">
+Watch out for&#8230;&#8203;
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock caution">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Caution</div>
+</td>
+<td class="content">
+Ensure that&#8230;&#8203;
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Formatted Text（文字格式）</p>
+</div>
+<div class="paragraph">
+<p><em>italic phrase</em></p>
+</div>
+<div class="paragraph">
+<p><em>i</em>talic le<em>tt</em>ers</p>
+</div>
+<div class="paragraph">
+<p><strong>bold phrase</strong></p>
+</div>
+<div class="paragraph">
+<p><strong>b</strong>old le<strong>tt</strong>ers</p>
+</div>
+<div class="paragraph">
+<p><strong><em>bold italic phrase</em></strong></p>
+</div>
+<div class="paragraph">
+<p><strong><em>b</em></strong>old italic le<strong><em>tt</em></strong>ers</p>
+</div>
+<div class="paragraph">
+<p><code>monospace phrase</code> and le<code>tt</code>ers</p>
+</div>
+<div class="paragraph">
+<p><code><em>monospace italic phrase</em></code> and le<code><em>tt</em></code>ers</p>
+</div>
+<div class="paragraph">
+<p><code><strong>monospace bold phrase</strong></code> and le<code><strong>tt</strong></code>ers</p>
+</div>
+<div class="paragraph">
+<p><code><strong><em>monospace bold italic phrase</em></strong></code> and le<code><strong><em>tt</em></strong></code>ers</p>
+</div>
+<div class="paragraph">
+<p>Custom Styling(<strong>自定义风格</strong>)</p>
+</div>
+<div class="paragraph">
+<p>Werewolves are <mark>allergic to cinnamon</mark>.</p>
+</div>
+<div class="paragraph">
+<p>Do werewolves believe in <span class="small">small print</span>?</p>
+</div>
+<div class="paragraph">
+<p><span class="big">O</span>nce upon an infinite loop.</p>
+</div>
+<div class="paragraph">
+<p>Curved Quotation Marks and Apostrophes（<strong>引号与撇号的使用</strong>）</p>
+</div>
+<div class="paragraph">
+<p>&#8216;single curved quotes&#8217;</p>
+</div>
+<div class="paragraph">
+<p>&#8220;double curved quotes&#8221;</p>
+</div>
+<div class="paragraph">
+<p>Olaf&#8217;s desk was a mess.</p>
+</div>
+<div class="paragraph">
+<p>All of the werewolves&#8217; desks were a mess.</p>
+</div>
+<div class="paragraph">
+<p>Olaf had been with the company since the &#8217;60s.</p>
+</div>
         </div>
     </div>
 </article>
-
-<article class="main-article">
-    <div class="violet-post">
-        <h3 class="main-article-title"><a href="/2015/10/14/first-blog.html" title="markdown使用" rel="bookmark">markdown使用</a></h3>
-        <p class="main-article-meta"><time pubdate="2015-10-14">2015-10-14</time></p>
-        <div class="main-article-contant">
-            <p>markdown使用简介</p>
-            <p class="main-article-more"><a href="/2015/10/14/first-blog.html" title="Read More" rel="nofollow">Read More</a></p>
-        </div>
-    </div>
-</article>
-
-<article class="main-article">
-    <div class="violet-post">
-        <h3 class="main-article-title"><a href="/jekyll/update/2015/10/13/welcome-to-jekyll.html" title="Welcome to Jekyll!" rel="bookmark">Welcome to Jekyll!</a></h3>
-        <p class="main-article-meta"><time pubdate="2015-10-13">2015-10-13</time></p>
-        <div class="main-article-contant">
-            <p>jekyll 简单的博客、静态网站工具</p>
-            <p class="main-article-more"><a href="/jekyll/update/2015/10/13/welcome-to-jekyll.html" title="Read More" rel="nofollow">Read More</a></p>
-        </div>
-    </div>
-</article>
-
-<article class="main-article">
-    <div class="violet-post">
-        <h3 class="main-article-title"><a href="/jekyll/update/2015/10/13/assiidoc-sourcecode.html" title="adoc开发语言展示" rel="bookmark">adoc开发语言展示</a></h3>
-        <p class="main-article-meta"><time pubdate="2015-10-13">2015-10-13</time></p>
-        <div class="main-article-contant">
-            <p>主要是adoc对不同开发语言的显示</p>
-            <p class="main-article-more"><a href="/jekyll/update/2015/10/13/assiidoc-sourcecode.html" title="Read More" rel="nofollow">Read More</a></p>
-        </div>
-    </div>
-</article>
-
-<article class="main-article">
-    <div class="violet-post">
-        <h3 class="main-article-title"><a href="/jekyll/update/2015/10/13/asciidoc-useage.html" title="adoc常见格式" rel="bookmark">adoc常见格式</a></h3>
-        <p class="main-article-meta"><time pubdate="2015-10-13">2015-10-13</time></p>
-        <div class="main-article-contant">
-            <p>adoc常见格式</p>
-            <p class="main-article-more"><a href="/jekyll/update/2015/10/13/asciidoc-useage.html" title="Read More" rel="nofollow">Read More</a></p>
-        </div>
-    </div>
-</article>
-
-
 <nav class="pagination fn-clear" id="violet-paging">
-    <ul class="pagination-list">
+    <div class="pagination-list">
         
-            
-                <li class="current"><a href="javascript:void(0);">1</a></li>
-            
+        <a class="prev" href="/jekyll/update/2015/10/13/asciidoc-order.html" rel="bookmark"><i class="fa fa-chevron-circle-left"></i>adoc常见格式</a>
         
-            
-                <li><a href="http://jundahzijone.github.io/page2/">2</a></li>
-            
         
-    </ul>
+        <a class="next" href="/jekyll/update/2015/10/13/assiidoc-sourcecode.html" rel="bookmark">adoc开发语言展示<i class="fa fa-chevron-circle-right"></i></a>
+        
+    </div>
 </nav>
-
+<div class="comment">
+    
+        
+    
+</div>
         </section>
 
           <footer class="foot" id="violet-foot">
@@ -234,6 +341,10 @@ document.getElementById("violet-head").style.backgroundImage="url(" + headImgArr
 
 
     </script>
+    
+        
+            
+        
     
 </body>
 </html>
