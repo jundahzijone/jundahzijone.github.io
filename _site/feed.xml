@@ -3,11 +3,98 @@
   <channel>
     <title>hzijone</title>
     <description></description>
-    <link>http://127.0.0.1:4000/</link>
-    <atom:link href="http://127.0.0.1:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 16 Oct 2015 09:59:04 +0800</pubDate>
-    <lastBuildDate>Fri, 16 Oct 2015 09:59:04 +0800</lastBuildDate>
+    <link>http://jundahzijone.github.io/</link>
+    <atom:link href="http://jundahzijone.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 17 Oct 2015 15:19:01 +0800</pubDate>
+    <lastBuildDate>Sat, 17 Oct 2015 15:19:01 +0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>安装 node.js</title>
+        <description>&lt;p&gt;今天开始折腾 Node.js. 第一步，如何安装。&lt;/p&gt;
+
+&lt;h3 id=&quot;mac-&quot;&gt;Mac 上的安装方法&lt;/h3&gt;
+
+&lt;p&gt;如果你已经安装好了 homebrew ，直接在终端输入这样一个命令: brew install node&lt;/p&gt;
+
+&lt;p&gt;如果没有，可以采用下面的方法：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;安装 Xcode (开发者工具，里面有很多需要的软件包，最基础的一些环境等)&lt;/li&gt;
+  &lt;li&gt;安装 git2. 安装 git (之前已经有文章介绍过)&lt;/li&gt;
+  &lt;li&gt;在终端输入下面命令：&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre name=&quot;colorcode&quot; class=&quot;js&quot;&gt;
+git clone git://github.com/ry/node.git
+cd node
+./configure
+make
+sudo make install
+&lt;/pre&gt;
+
+&lt;p&gt;接着就可以通过后面的一个 Hello world 的例子来测试是否运行了。&lt;/p&gt;
+
+&lt;h3 id=&quot;ubuntu-&quot;&gt;Ubuntu 上面的安装方法&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;安装一些依赖包&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre name=&quot;colorcode&quot; class=&quot;js&quot;&gt;
+sudo apt-get install g++ curl libssl-dev apache2-utils
+sudo apt-git install git-core
+&lt;/pre&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;在终端下运行下面命令：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre name=&quot;colorcode&quot; class=&quot;js&quot;&gt;
+git clone git://github.com/ry/node.git
+cd node
+./configure
+make
+sudo make install
+&lt;/pre&gt;
+
+&lt;p&gt;接着就可以通过后面的一个 Hello world 的例子来测试是否运行了。&lt;/p&gt;
+
+&lt;h3 id=&quot;windows-&quot;&gt;Windows 上面的安装方法&lt;/h3&gt;
+
+&lt;p&gt;在 Windows 上，你得使用 cygwin 来安装 node，具体的安装方法如下：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;安装 cygwin&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;点击 cygwin 里面的 setup.exe 来安装如下的包：&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;devel -&amp;gt; openssl&lt;/li&gt;
+      &lt;li&gt;devel -&amp;gt; g++-gcc&lt;/li&gt;
+      &lt;li&gt;devel -&amp;gt; make&lt;/li&gt;
+      &lt;li&gt;python -&amp;gt; python&lt;/li&gt;
+      &lt;li&gt;devel -&amp;gt; git&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;依照 start -&amp;gt; cygwin -&amp;gt; cygwin bash shell 打开终端&lt;/li&gt;
+  &lt;li&gt;输入下面命令：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre name=&quot;colorcode&quot; class=&quot;js&quot;&gt;
+git clone git://github.com/ry/node.git
+cd node
+./configure
+make
+sudo make install
+&lt;/pre&gt;
+&lt;p&gt;接着就可以通过后面的一个 Hello world 的例子来测试是否运行了。&lt;/p&gt;
+
+&lt;p&gt;PS: 其实在 windows 下，还有其他的安装方法。具体百度一下就有。&lt;/p&gt;
+</description>
+        <pubDate>Thu, 15 Oct 2015 00:00:00 +0800</pubDate>
+        <link>http://jundahzijone.github.io/2015/10/15/install-nodejs.html</link>
+        <guid isPermaLink="true">http://jundahzijone.github.io/2015/10/15/install-nodejs.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>markdown使用</title>
@@ -51,8 +138,8 @@ but I convince that I can get over it&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.cnblogs.com/hzijone/&quot;&gt;http://www.cnblogs.com/hzijone/&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 14 Oct 2015 00:00:00 +0800</pubDate>
-        <link>http://127.0.0.1:4000/2015/10/14/first-blog.html</link>
-        <guid isPermaLink="true">http://127.0.0.1:4000/2015/10/14/first-blog.html</guid>
+        <link>http://jundahzijone.github.io/2015/10/14/first-blog.html</link>
+        <guid isPermaLink="true">http://jundahzijone.github.io/2015/10/14/first-blog.html</guid>
         
         
       </item>
@@ -75,8 +162,1065 @@ but I convince that I can get over it&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 13 Oct 2015 18:55:53 +0800</pubDate>
-        <link>http://127.0.0.1:4000/jekyll/update/2015/10/13/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://127.0.0.1:4000/jekyll/update/2015/10/13/welcome-to-jekyll.html</guid>
+        <link>http://jundahzijone.github.io/jekyll/update/2015/10/13/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://jundahzijone.github.io/jekyll/update/2015/10/13/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>adoc开发语言展示</title>
+        <description>&lt;h1&gt;Source Code&lt;/h1&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Reference code like &lt;code&gt;types&lt;/code&gt; or &lt;code&gt;methods&lt;/code&gt; inline.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;literalblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre&gt;error: The requested operation returned error: 1954 Forbidden search for defensive operations manual
+absolutely fatal: operation initiation lost in the dodecahedron of doom
+would you like to die again? y/n&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;Gemfile.lock&lt;/div&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre&gt;GEM
+  remote: https://rubygems.org/
+  specs:
+    asciidoctor (0.1.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  asciidoctor (~&amp;gt; 0.1.4)&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;===&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;app-listing&quot; class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;app.rb&lt;/div&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlight&quot;&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;require 'sinatra'
+
+get '/hi' do
+  &quot;Hello World!&quot;
+end&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;===&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlight&quot;&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;require 'sinatra' &lt;b class=&quot;conum&quot;&gt;(1)&lt;/b&gt;
+
+get '/hi' do &lt;b class=&quot;conum&quot;&gt;(2)&lt;/b&gt;
+  &quot;Hello World!&quot; &lt;b class=&quot;conum&quot;&gt;(3)&lt;/b&gt;
+end&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;colist arabic&quot;&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Library import&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;URL mapping&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Content for response&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;===&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;section&amp;gt;
+  &amp;lt;title&amp;gt;Section Title&amp;lt;/title&amp;gt; &lt;b class=&quot;conum&quot;&gt;(1)&lt;/b&gt;
+&amp;lt;/section&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;colist arabic&quot;&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;The section title is required.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;===&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;code class=&quot;rolename&quot;&gt;monospace text&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;table class=&quot;tableblock frame-all grid-all&quot;&gt;
+&lt;colgroup&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th class=&quot;tableblock halign-left valign-top&quot;&gt;Cell A&lt;/th&gt;
+&lt;th class=&quot;tableblock halign-left valign-top&quot;&gt;Cell B&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tfoot&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;a&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;b&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tfoot&gt;
+&lt;/table&gt;</description>
+        <pubDate>Tue, 13 Oct 2015 18:55:53 +0800</pubDate>
+        <link>http://jundahzijone.github.io/jekyll/update/2015/10/13/assiidoc-sourcecode.html</link>
+        <guid isPermaLink="true">http://jundahzijone.github.io/jekyll/update/2015/10/13/assiidoc-sourcecode.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>adoc常见格式</title>
+        <description>&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;line breaks - 换行&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre&gt;I am a PHP developer,
+Work in Junda&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Literal(通过空一行)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;A normal paragraph.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;literalblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre&gt;A sequence of lines that begin with at least one space is a literal paragraph.
+Literal paragraphs are treated as preformatted text.
+The text is shown in a fixed-width font
+and endlines are preserved.&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Admonition(警醒)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;admonitionblock note&quot;&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td class=&quot;icon&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;Note&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class=&quot;content&quot;&gt;
+An admonition paragraph draws the reader&amp;#8217;s attention to&lt;br&gt;
+auxiliary information.&lt;br&gt;
+Its purpose is determined by the label&lt;br&gt;
+at the beginning of the paragraph.
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Here are the other built-in admonition types:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;admonitionblock tip&quot;&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td class=&quot;icon&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;Tip&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class=&quot;content&quot;&gt;
+Pro tip&amp;#8230;&amp;#8203;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;admonitionblock important&quot;&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td class=&quot;icon&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;Important&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class=&quot;content&quot;&gt;
+Don&amp;#8217;t forget&amp;#8230;&amp;#8203;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;admonitionblock warning&quot;&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td class=&quot;icon&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;Warning&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class=&quot;content&quot;&gt;
+Watch out for&amp;#8230;&amp;#8203;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;admonitionblock caution&quot;&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td class=&quot;icon&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;Caution&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class=&quot;content&quot;&gt;
+Ensure that&amp;#8230;&amp;#8203;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Formatted Text（文字格式）&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;em&gt;italic phrase&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;em&gt;i&lt;/em&gt;talic le&lt;em&gt;tt&lt;/em&gt;ers&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;bold phrase&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;b&lt;/strong&gt;old le&lt;strong&gt;tt&lt;/strong&gt;ers&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;bold italic phrase&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;b&lt;/em&gt;&lt;/strong&gt;old italic le&lt;strong&gt;&lt;em&gt;tt&lt;/em&gt;&lt;/strong&gt;ers&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;code&gt;monospace phrase&lt;/code&gt; and le&lt;code&gt;tt&lt;/code&gt;ers&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;code&gt;&lt;em&gt;monospace italic phrase&lt;/em&gt;&lt;/code&gt; and le&lt;code&gt;&lt;em&gt;tt&lt;/em&gt;&lt;/code&gt;ers&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;code&gt;&lt;strong&gt;monospace bold phrase&lt;/strong&gt;&lt;/code&gt; and le&lt;code&gt;&lt;strong&gt;tt&lt;/strong&gt;&lt;/code&gt;ers&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;code&gt;&lt;strong&gt;&lt;em&gt;monospace bold italic phrase&lt;/em&gt;&lt;/strong&gt;&lt;/code&gt; and le&lt;code&gt;&lt;strong&gt;&lt;em&gt;tt&lt;/em&gt;&lt;/strong&gt;&lt;/code&gt;ers&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Custom Styling(&lt;strong&gt;自定义风格&lt;/strong&gt;)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Werewolves are &lt;mark&gt;allergic to cinnamon&lt;/mark&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Do werewolves believe in &lt;span class=&quot;small&quot;&gt;small print&lt;/span&gt;?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;span class=&quot;big&quot;&gt;O&lt;/span&gt;nce upon an infinite loop.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Curved Quotation Marks and Apostrophes（&lt;strong&gt;引号与撇号的使用&lt;/strong&gt;）&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&amp;#8216;single curved quotes&amp;#8217;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&amp;#8220;double curved quotes&amp;#8221;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Olaf&amp;#8217;s desk was a mess.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;All of the werewolves&amp;#8217; desks were a mess.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Olaf had been with the company since the &amp;#8217;60s.&lt;/p&gt;
+&lt;/div&gt;</description>
+        <pubDate>Tue, 13 Oct 2015 18:55:53 +0800</pubDate>
+        <link>http://jundahzijone.github.io/jekyll/update/2015/10/13/asciidoc-useage.html</link>
+        <guid isPermaLink="true">http://jundahzijone.github.io/jekyll/update/2015/10/13/asciidoc-useage.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>adoc常见格式</title>
+        <description>&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Document Header &lt;strong&gt;标題&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h1 id=&quot;my-document-s-title&quot; class=&quot;sect0&quot;&gt;My Document&amp;#8217;s Title&lt;/h1&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Doc Writer &amp;lt;&lt;a href=&quot;mailto:doc.writer@asciidoctor.org&quot;&gt;doc.writer@asciidoctor.org&lt;/a&gt;&amp;gt;&lt;br&gt;
+v1.0, 2014-01-01&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;My document provides&amp;#8230;&amp;#8203;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h1 id=&quot;my-document-s-title-2&quot; class=&quot;sect0&quot;&gt;My Document&amp;#8217;s Title&lt;/h1&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Doc Writer &amp;lt;&lt;a href=&quot;mailto:doc.writer@asciidoctor.org&quot;&gt;doc.writer@asciidoctor.org&lt;/a&gt;&amp;gt;&lt;br&gt;
+v1.0, 2014-01-01&lt;br&gt;
+:toc:&lt;br&gt;
+:imagesdir: assets/images&lt;br&gt;
+:homepage: &lt;a href=&quot;http://asciidoctor.org&quot; class=&quot;bare&quot;&gt;http://asciidoctor.org&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;My document provides&amp;#8230;&amp;#8203;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h1 id=&quot;section-titles-headings-段落標題&quot; class=&quot;sect0&quot;&gt;Section Titles (Headings) 段落標題&lt;/h1&gt;
+
+&lt;h1 id=&quot;document-title-level-0&quot; class=&quot;sect0&quot;&gt;Document Title (Level 0)&lt;/h1&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;level-1-section-title&quot;&gt;Level 1 Section Title&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;level-2-section-title&quot;&gt;Level 2 Section Title&lt;/h3&gt;
+&lt;div class=&quot;sect3&quot;&gt;
+&lt;h4 id=&quot;level-3-section-title&quot;&gt;Level 3 Section Title&lt;/h4&gt;
+&lt;div class=&quot;sect4&quot;&gt;
+&lt;h5 id=&quot;level-4-section-title&quot;&gt;Level 4 Section Title&lt;/h5&gt;
+&lt;div class=&quot;sect5&quot;&gt;
+&lt;h6 id=&quot;level-5-section-title&quot;&gt;Level 5 Section Title&lt;/h6&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;another-level-1-section-title&quot;&gt;Another Level 1 Section Title&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;primitives-nulls&quot;&gt;Primitive types and null values&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h1 id=&quot;reference-documentation只能用asciidoctor才能渲染出來&quot; class=&quot;sect0&quot;&gt;Reference Documentation只能用asciidoctor才能渲染出來&lt;/h1&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Lead Developer&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;This is documentation for project X.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Unresolved directive in &amp;lt;stdin&amp;gt; - include::basics.adoc[]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Unresolved directive in &amp;lt;stdin&amp;gt; - include::installation.adoc[]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Unresolved directive in &amp;lt;stdin&amp;gt; - include::example.adoc[]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;horizontal-rules-and-page-breaks&quot;&gt;Horizontal Rules and Page Breaks&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;hr&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;水平線&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Page break&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style=&quot;page-break-after: always;&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Edgar Allen Poe&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sheri S. Tepper&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bill Bryson&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;level 1&lt;/p&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;level 2&lt;/p&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;level 3&lt;/p&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;level 4&lt;/p&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;level 5&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;level 1&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;unordered-max-nesting-多重無序排序&quot;&gt;Unordered, max nesting 多重無序排序&lt;/h3&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;level 1&lt;/p&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;level 2&lt;/p&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;level 3&lt;/p&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;level 4&lt;/p&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;level 5&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;level 1&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;checklist&quot;&gt;Checklist&lt;/h3&gt;
+&lt;div class=&quot;ulist checklist&quot;&gt;
+&lt;ul class=&quot;checklist&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;#10003; checked&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;#10003; also checked&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;#10063; not checked&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;normal list item&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;ordered-basic-有序排序&quot;&gt;Ordered, basic 有序排序&lt;/h3&gt;
+&lt;div class=&quot;olist arabic&quot;&gt;
+&lt;ol class=&quot;arabic&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;Step 1&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Step 2&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Step 3&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;ordered-nestedview-result-多重排序&quot;&gt;Ordered, nestedview result 多重排序&lt;/h3&gt;
+&lt;div class=&quot;olist arabic&quot;&gt;
+&lt;ol class=&quot;arabic&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;Step 1&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Step 2&lt;/p&gt;
+&lt;div class=&quot;olist loweralpha&quot;&gt;
+&lt;ol class=&quot;loweralpha&quot; type=&quot;a&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;Step 2a&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Step 2b&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Step 3&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;labeled-single-line-文字排序&quot;&gt;Labeled, single-line 文字排序&lt;/h3&gt;
+&lt;div class=&quot;dlist&quot;&gt;
+&lt;dl&gt;
+&lt;dt class=&quot;hdlist1&quot;&gt;first term&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;definition of first term&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&quot;hdlist1&quot;&gt;section term&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;definition of second term&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;q-a-問題&quot;&gt;Q&amp;amp;A 問題&lt;/h3&gt;
+&lt;div class=&quot;qlist qanda&quot;&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;What is Asciidoctor?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;An implementation of the AsciiDoc processor in Ruby.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;What is the answer to the Ultimate Question?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;42&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Operating Systems&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&quot;dlist&quot;&gt;
+&lt;dl&gt;
+&lt;dt class=&quot;hdlist1&quot;&gt;Linux&lt;/dt&gt;
+&lt;dd&gt;
+&lt;div class=&quot;olist arabic&quot;&gt;
+&lt;ol class=&quot;arabic&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;Fedora&lt;/p&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Desktop&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ubuntu&lt;/p&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Desktop&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Server&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/dd&gt;
+&lt;dt class=&quot;hdlist1&quot;&gt;BSD&lt;/dt&gt;
+&lt;dd&gt;
+&lt;div class=&quot;olist arabic&quot;&gt;
+&lt;ol class=&quot;arabic&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;FreeBSD&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;NetBSD&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Cloud Providers&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&quot;dlist&quot;&gt;
+&lt;dl&gt;
+&lt;dt class=&quot;hdlist1&quot;&gt;PaaS&lt;/dt&gt;
+&lt;dd&gt;
+&lt;div class=&quot;olist arabic&quot;&gt;
+&lt;ol class=&quot;arabic&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;OpenShift&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CloudBees&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/dd&gt;
+&lt;dt class=&quot;hdlist1&quot;&gt;IaaS&lt;/dt&gt;
+&lt;dd&gt;
+&lt;div class=&quot;olist arabic&quot;&gt;
+&lt;ol class=&quot;arabic&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;Amazon EC2&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Rackspace&lt;/p&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Every list item has at least one paragraph of content,&lt;br&gt;
+which may be wrapped, even using a hanging indent.&lt;/p&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Additional paragraphs or blocks are adjoined by putting&lt;br&gt;
+a list continuation on a line adjacent to both blocks.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;list continuation&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;a plus sign (&lt;code&gt;&amp;#43;&lt;/code&gt;) on a line by itself&lt;/p&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A literal paragraph does not require a list continuation.&lt;/p&gt;
+&lt;div class=&quot;literalblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre&gt;$ gem install asciidoctor&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;AsciiDoc lists may contain any complex content.&lt;/p&gt;
+&lt;table class=&quot;tableblock frame-all grid-all spread&quot;&gt;
+&lt;colgroup&gt;
+&lt;col style=&quot;width: 50%;&quot;&gt;
+&lt;col style=&quot;width: 50%;&quot;&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th class=&quot;tableblock halign-left valign-top&quot;&gt;Application&lt;/th&gt;
+&lt;th class=&quot;tableblock halign-left valign-top&quot;&gt;Language&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;AsciiDoc&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Python&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Asciidoctor&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Ruby&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+        <pubDate>Tue, 13 Oct 2015 18:55:53 +0800</pubDate>
+        <link>http://jundahzijone.github.io/jekyll/update/2015/10/13/asciidoc-order.html</link>
+        <guid isPermaLink="true">http://jundahzijone.github.io/jekyll/update/2015/10/13/asciidoc-order.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>adoc的链接</title>
+        <description>&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;http://asciidoctor.org&quot; class=&quot;bare&quot;&gt;http://asciidoctor.org&lt;/a&gt; - automatic!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;http://asciidoctor.org&quot;&gt;Asciidoctor&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/asciidoctor&quot;&gt;Asciidoctor @ &lt;strong&gt;GitHub&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;http://example.org/?q=[a b]&quot;&gt;URL with special characters&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;http://example.org/?q=%5Ba%20b%5D&quot;&gt;URL with special characters&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;email-and-irc&quot;&gt;Email and IRC&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;mailto:devel@discuss.arquillian.org&quot;&gt;devel@discuss.arquillian.org&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;mailto:devel@discuss.arquillian.org&quot;&gt;Discuss Arquillian&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;mailto:devel-join@discuss.arquillian.org?subject=Subscribe%20me&amp;amp;body=I%20want%20to%20join!&quot;&gt;Subscribe&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;irc://irc.freenode.org/#asciidoctor&quot; class=&quot;bare&quot;&gt;irc://irc.freenode.org/#asciidoctor&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;internal-cross-references-交叉引用&quot;&gt;Internal cross references 交叉引用&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;See &lt;a href=&quot;#paragraphs&quot;&gt;[paragraphs]&lt;/a&gt; to learn how to write paragraphs.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Learn how to organize the document into &lt;a href=&quot;#section-titles&quot;&gt;sections&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+        <pubDate>Tue, 13 Oct 2015 18:55:53 +0800</pubDate>
+        <link>http://jundahzijone.github.io/jekyll/update/2015/10/13/asciidoc-link.html</link>
+        <guid isPermaLink="true">http://jundahzijone.github.io/jekyll/update/2015/10/13/asciidoc-link.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>adoc图片切换及显示</title>
+        <description>&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;sunset.jpg&quot; alt=&quot;sunset&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;sunset.jpg&quot; alt=&quot;Sunset&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;img-sunset&quot; class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;a class=&quot;image&quot; href=&quot;http://www.flickr.com/photos/javh/5448336655&quot;&gt;&lt;img src=&quot;sunset.jpg&quot; alt=&quot;Sunset&quot; width=&quot;300&quot; height=&quot;200&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;title&quot;&gt;Figure 1: A mountain sunset&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;http://asciidoctor.org/images/octocat.jpg&quot; alt=&quot;GitHub mascot&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;span class=&quot;image right&quot;&gt;&lt;img src=&quot;sunset.jpg&quot; alt=&quot;Sunset&quot; width=&quot;150&quot; height=&quot;150&quot;&gt;&lt;/span&gt; What a beautiful sunset!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Click &lt;span class=&quot;image&quot;&gt;&lt;img src=&quot;icons/play.png&quot; alt=&quot;Play&quot; title=&quot;Play&quot;&gt;&lt;/span&gt; to get the party started.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Click &lt;span class=&quot;image&quot;&gt;&lt;img src=&quot;icons/pause.png&quot; alt=&quot;pause&quot; title=&quot;Pause&quot;&gt;&lt;/span&gt; when you need a break.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;videoblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;video src=&quot;video_file.mp4&quot; controls&gt;
+Your browser does not support the video tag.
+&lt;/video&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;videoblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;video src=&quot;video_file.mp4#t=60,140&quot; width=&quot;640&quot; autoplay controls&gt;
+Your browser does not support the video tag.
+&lt;/video&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;videoblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;video src=&quot;a.avi&quot; poster=&quot;youkou&quot; controls&gt;
+Your browser does not support the video tag.
+&lt;/video&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+        <pubDate>Tue, 13 Oct 2015 18:55:53 +0800</pubDate>
+        <link>http://jundahzijone.github.io/jekyll/update/2015/10/13/asciidoc-image.html</link>
+        <guid isPermaLink="true">http://jundahzijone.github.io/jekyll/update/2015/10/13/asciidoc-image.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>adoc评论及注释的使用</title>
+        <description>&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;comments&quot;&gt;comments&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;lines&quot;&gt;lines&lt;/h3&gt;
+&lt;table class=&quot;tableblock frame-all grid-all spread&quot;&gt;
+&lt;caption class=&quot;title&quot;&gt;Table 1. Table Title&lt;/caption&gt;
+&lt;colgroup&gt;
+&lt;col style=&quot;width: 33%;&quot;&gt;
+&lt;col style=&quot;width: 33%;&quot;&gt;
+&lt;col style=&quot;width: 33%;&quot;&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th class=&quot;tableblock halign-left valign-top&quot;&gt;Name of Column 1&lt;/th&gt;
+&lt;th class=&quot;tableblock halign-left valign-top&quot;&gt;Name of Column 2&lt;/th&gt;
+&lt;th class=&quot;tableblock halign-left valign-top&quot;&gt;Name of Column 3&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Cell in column 1, row 1&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Cell in column 2, row 1&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Cell in column 3, row 1&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Cell in column 1, row 2&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Cell in column 2, row 2&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Cell in column 3, row 2&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;===&lt;/p&gt;
+&lt;/div&gt;
+&lt;table class=&quot;tableblock frame-all grid-all spread&quot;&gt;
+&lt;colgroup&gt;
+&lt;col style=&quot;width: 50%;&quot;&gt;
+&lt;col style=&quot;width: 50%;&quot;&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th class=&quot;tableblock halign-left valign-top&quot;&gt;Name of Column 1&lt;/th&gt;
+&lt;th class=&quot;tableblock halign-left valign-top&quot;&gt;Name of Column 2&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Cell in column 1, row 1&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Cell in column 2, row 1&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Cell in column 1, row 2&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Cell in column 2, row 2&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;===&lt;/p&gt;
+&lt;/div&gt;
+&lt;table class=&quot;tableblock frame-all grid-all spread&quot;&gt;
+&lt;caption class=&quot;title&quot;&gt;Table 2. Applications&lt;/caption&gt;
+&lt;colgroup&gt;
+&lt;col style=&quot;width: 25%;&quot;&gt;
+&lt;col style=&quot;width: 25%;&quot;&gt;
+&lt;col style=&quot;width: 50%;&quot;&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th class=&quot;tableblock halign-left valign-top&quot;&gt;Name&lt;/th&gt;
+&lt;th class=&quot;tableblock halign-left valign-top&quot;&gt;Category&lt;/th&gt;
+&lt;th class=&quot;tableblock halign-left valign-top&quot;&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Firefox&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Browser&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Mozilla Firefox is an open-source web browser.&lt;br&gt;
+It&amp;#8217;s designed for standards compliance,&lt;br&gt;
+performance, portability.&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Arquillian&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Testing&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;An innovative and highly extensible testing platform.&lt;br&gt;
+Empowers developers to easily create real, automated tests.&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;佔用多個空格&quot;&gt;佔用多個空格&lt;/h3&gt;
+&lt;table class=&quot;tableblock frame-all grid-all spread&quot;&gt;
+&lt;colgroup&gt;
+&lt;col style=&quot;width: 22%;&quot;&gt;
+&lt;col style=&quot;width: 22%;&quot;&gt;
+&lt;col style=&quot;width: 55%;&quot;&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Firefox&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Browser&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;div&gt;&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Mozilla Firefox is an open-source web browser.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;It&amp;#8217;s designed for:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;standards compliance&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;performance&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;portability&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;http://getfirefox.com&quot;&gt;Get Firefox&lt;/a&gt;!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;csv&quot;&gt;csv&lt;/h3&gt;
+&lt;table class=&quot;tableblock frame-all grid-all spread&quot;&gt;
+&lt;colgroup&gt;
+&lt;col style=&quot;width: 33%;&quot;&gt;
+&lt;col style=&quot;width: 33%;&quot;&gt;
+&lt;col style=&quot;width: 33%;&quot;&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th class=&quot;tableblock halign-left valign-top&quot;&gt;Artist&lt;/th&gt;
+&lt;th class=&quot;tableblock halign-left valign-top&quot;&gt;Track&lt;/th&gt;
+&lt;th class=&quot;tableblock halign-left valign-top&quot;&gt;Genre&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Baauer&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Harlem Shake&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Hip Hop&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;The Lumineers&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Ho Hey&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Folk Rock&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=&quot;tableblock frame-all grid-all&quot; style=&quot;width: 25%;&quot;&gt;
+&lt;colgroup&gt;
+&lt;col style=&quot;width: 25%;&quot;&gt;
+&lt;col style=&quot;width: 25%;&quot;&gt;
+&lt;col style=&quot;width: 25%;&quot;&gt;
+&lt;col style=&quot;width: 25%;&quot;&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;&lt;em&gt;1&lt;/em&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-right valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;&lt;strong&gt;2&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-center valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;3&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-right valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;&lt;strong&gt;4&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-center valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;&lt;em&gt;5&lt;/em&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-center valign-middle&quot; colspan=&quot;2&quot; rowspan=&quot;2&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;&lt;code&gt;6&lt;/code&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-bottom&quot; rowspan=&quot;3&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;&lt;code&gt;7&lt;/code&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-center valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;&lt;em&gt;8&lt;/em&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;&lt;em&gt;9&lt;/em&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-right valign-top&quot; colspan=&quot;2&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;&lt;code&gt;10&lt;/code&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class=&quot;tableblock frame-all grid-all spread&quot;&gt;
+&lt;colgroup&gt;
+&lt;col style=&quot;width: 50%;&quot;&gt;
+&lt;col style=&quot;width: 50%;&quot;&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th class=&quot;tableblock halign-left valign-top&quot;&gt;Shortcut&lt;/th&gt;
+&lt;th class=&quot;tableblock halign-left valign-top&quot;&gt;Purpose&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;kbd:[F11]&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Toggle fullscreen&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;kbd:[Ctrl+T]&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Open a new tab&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;kbd:[Ctrl+Shift+N]&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;New incognito window&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;kbd:[Ctrl + +]&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;Increase zoom&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class=&quot;quoteblock&quot;&gt;
+&lt;blockquote&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;I hold it that a little rebellion now and then is a good thing,&lt;br&gt;
+and as necessary in the political world as storms in the physical.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;attribution&quot;&gt;
+&amp;#8212; Thomas Jefferson&lt;br&gt;
+&lt;cite&gt;Papers of Thomas Jefferson: Volume 11&lt;/cite&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+        <pubDate>Tue, 13 Oct 2015 18:55:53 +0800</pubDate>
+        <link>http://jundahzijone.github.io/jekyll/update/2015/10/13/asciidoc-comment.html</link>
+        <guid isPermaLink="true">http://jundahzijone.github.io/jekyll/update/2015/10/13/asciidoc-comment.html</guid>
         
         
         <category>jekyll</category>
