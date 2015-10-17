@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Welcome to Jekyll!"
+date:   2015-10-13 10:55:53
+categories: jekyll update
+description: jekyll 简单的博客、静态网站工具
+---
+
 == comments
 
 === lines
@@ -99,3 +107,28 @@ The Lumineers,Ho Hey,Folk Rock
 ^|8
 |9 2+>|10
 |===
+
+
+
+
+|===
+|Shortcut |Purpose
+
+|kbd:[F11]
+|Toggle fullscreen
+
+|kbd:[Ctrl+T]
+|Open a new tab
+
+|kbd:[Ctrl+Shift+N]
+|New incognito window
+
+|kbd:[Ctrl + +]
+|Increase zoom
+|===
+
+
+
+> I hold it that a little rebellion now and then is a good thing,
+> and as necessary in the political world as storms in the physical.
+> -- Thomas Jefferson, Papers of Thomas Jefferson: Volume 11

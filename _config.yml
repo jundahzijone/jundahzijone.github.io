@@ -93,8 +93,13 @@ coderay:
   #     - strikethrough
   #     - fenced_code_blocks
 
-# author 
+# author
 link: http://www.zhanxin.info/contact.html
+
+
+# convert adoc to html
+gems:
+  - jekyll-asciidoc
 
 
 #theme config
